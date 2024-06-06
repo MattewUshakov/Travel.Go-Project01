@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title> Travel.GO</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo"><a href="#">Travel.GO</a></div>
+      <ul class="nav__links">
+        <li class="link">Главная</li>
+        <li class="link">Блог</li>
+        <li class="link">Предложения</li>
+        <li class="link">Услуги</li>
+        <li class="link">Контакты</li>
+      </ul>
+    </nav>
+    <header>
+      <div class="section__container">
+        <div class="header__content">
+          <h1>Путешествия</h1>
+          <p>
+            Отправляйтесь в путешествие всей жизни и откройте для себя самые
+            красивые места мира с нашими экспертными советами по путешествиям.
+            От экзотических пляжей до культурных чудес, мы покроем вас
+            всесторонними путеводителями и советами инсайдеров.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <section class="journey__container">
+      <div class="section__container">
+        <h2 class="section__title">Начните свое путешествие</h2>
+        <p class="section__subtitle">Самые популярные страны в июне</p>
+        <div class="journey__grid">
+          <div class="country__card">
+            <img src="assets/country-1.jpg" alt="страна" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <a href="santorini-greece.html" target="_blank">Санторини, Греция</a>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="assets/country-2.jpg" alt="Италия" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <a href="vernazza-italy.html" target="_blank">Вернацца, Италия</a>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="assets/country-3.jpg" alt="Калифорния" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <a href="San_Francisco-california.html" target="_blank">Сан-Франциско, Калифорния</a>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="assets/country-4.jpg" alt="страна" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <a href="navagio-greece.html" target="_blank">Навагио, Греция</a>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="assets/country-5.jpg" alt="Таиланд" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <a href="ao-nang-thailand.html" target="_blank">Ао Нанг, Таиланд</a>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="assets/country-6.jpg" alt="Таиланд" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <a href="phi_phi_Island-thailand.html" target="_blank">Остров Пхи-Пхи, Таиланд</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner__container">
+      <div class="section__container">
+        <div class="banner__content">
+          <h2> Скидка 10-30% </h2>
+          <p>
+            Путешествуйте по миру с нашими невероятными скидками на путешествия.
+            Независимо от того, ищете ли вы последнюю минут
+        </p>
+        <button>Посмотреть туры</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="display__container">
+    <div class="section__container">
+      <h2 class="section__title">Почему выбрают нас</h2>
+      <p class="section__subtitle">
+        Самый радостный момент в человеческой жизни - это отъезд в неизвестные земли.
+      </p>
+      <div class="display__grid">
+        <div class="display__card grid-1">
+          <img src="assets/grid-1.jpg" alt="grid" />
+        </div>
+        <div class="display__card">
+          <i class="ri-earth-line"></i>
+          <h4>Страстное путешествие</h4>
+          <p>Разожгите свою страсть к приключениям и откройте новые горизонты</p>
+        </div>
+        <div class="display__card">
+          <img src="assets/grid-2.jpg" alt="grid" />
+        </div>
+        <div class="display__card">
+          <img src="assets/grid-3.jpg" alt="grid" />
+        </div>
+        <div class="display__card">
+          <i class="ri-road-map-line"></i>
+          <h4>Красивые места</h4>
+          <p>Откройте для себя самые красивые места в мире</p>
+        </div>
+      </div>
+    </div>
+
+<section class="booking__container">
+  <div class="section__container">
+    <h2 class="section__title">Бронирование туров</h2>
+    <p class="section__subtitle">Выберите свой тур и начните свое путешествие</p>
+    <form>
+      <label for="tour-type">Выберите тип тура:</label>
+      <select id="tour-type">
+        <option value="beach">Пляжный отдых</option>
+        <option value="city">Городской тур</option>
+        <option value="adventure">Приключенческий тур</option>
+      </select>
+      <label for="destination">Выберите:</label>
+      <select id="destination">
+        <option value="greece">Греция</option>
+        <option value="italy">Италия</option>
+        <option value="thailand">Таиланд</option>
+        <option value="california">Калифорния</option>
+      </select>
+      <label for="date">Выберите дату:</label>
+      <input type="date" id="date" />
+      <button>Бронировать тур</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="section__container">
+    <h4>Travel.GO</h4>
+    <div class="social__icons">
+      <span><i class="ri-facebook-fill"></i></span>
+      <span><i class="ri-instagram-line"></i></span>
+      <span><i class="ri-youtube-fill"></i></span>
+      <span><i class="ri-telegram-line"></i></span>
+    </div>
+    <p>
+      Чем больше ты путешествуешь, тем лучше понимаешь, как мала твоя роль в этом огромном мире, и это делает тебя более скромным.
+    </p>
+    <p>
+      Телефон: +7 (495) 123-45-67
+    </p>
+    <p>
+      Электронная почта: <a href="mailto:info@travel.go">info@travel.go</a>
+    </p>
+    <p>
+      Адрес: Москва, ул. Ткацкая 1
+    </p>
+  </div>
+</footer>
+</body> 
+</html>
